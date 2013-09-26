@@ -1,0 +1,86 @@
+8
+
+dir
+5
+https://orange-hrm-saas.googlecode.com/svn/trunk/OrangeHRM_SaaS/WebContent/WEB-INF
+https://orange-hrm-saas.googlecode.com/svn
+
+
+
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+classes
+dir
+
+jsp
+dir
+
+lib
+dir
+
+orangehrm-datasource.xml
+file
+19
+
+
+
+2013-05-09T10:30:31.000000Z
+979ba65d6310b5989bca793788b5e194
+2013-05-09T14:45:19.243483Z
+19
+edward.fer@gmail.com
+
+orangehrm-dwr.xml
+file
+
+
+
+
+2013-04-30T10:27:59.412043Z
+c25c9c26ca61c7c9f5890eb9be62ede7
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+orangehrm-servlet.xml
+file
+19
+
+
+
+2013-05-09T14:32:32.000000Z
+efaa389f7b8d332ac47b838eb6388c2b
+2013-05-09T14:45:19.243483Z
+19
+edward.fer@gmail.com
+
+orangehrm-tiles.xml
+file
+22
+
+
+
+2013-05-12T13:27:12.000000Z
+1caeaa7d67305735f96cc67279f5f737
+2013-05-13T02:01:08.893310Z
+22
+edward.fer@gmail.com
+has-props
+
+web.xml
+file
+25
+
+
+
+2013-05-26T12:29:41.000000Z
+fa510e0d7d34f296253e7680fef472c2
+2013-05-26T12:38:04.818861Z
+25
+edward.fer@gmail.com
+

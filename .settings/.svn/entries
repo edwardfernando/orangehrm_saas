@@ -1,0 +1,88 @@
+8
+
+dir
+5
+https://orange-hrm-saas.googlecode.com/svn/trunk/OrangeHRM_SaaS/.settings
+https://orange-hrm-saas.googlecode.com/svn
+
+
+
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+org.eclipse.jdt.core.prefs
+file
+
+
+
+
+2013-03-13T03:41:13.923596Z
+fb3e2cc4a7e40b1a58c74449966c6894
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+org.eclipse.wst.jsdt.ui.superType.name
+file
+
+
+
+
+2013-03-06T06:33:17.953125Z
+c89686a387d2b12b3c729ce35a0bcb5b
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+org.eclipse.wst.jsdt.ui.superType.container
+file
+
+
+
+
+2013-03-06T06:33:18.078125Z
+b27d1cf62dde4473bab7c433317bb0ce
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+org.eclipse.wst.common.project.facet.core.xml
+file
+
+
+
+
+2013-03-06T06:33:19.234375Z
+591614b03e47f916c4f58505cff678e7
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+.jsdtscope
+file
+
+
+
+
+2013-03-06T06:33:17.187500Z
+2dfb4ce067f1529d1934162e0152d9b8
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+org.eclipse.wst.common.component
+file
+
+
+
+
+2013-04-16T07:11:44.693363Z
+cde390a6f9732f6fde30e57b3c545ee9
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+

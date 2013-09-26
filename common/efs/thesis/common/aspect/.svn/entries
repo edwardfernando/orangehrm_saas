@@ -1,0 +1,29 @@
+8
+
+dir
+16
+https://orange-hrm-saas.googlecode.com/svn/trunk/OrangeHRM_SaaS/common/efs/thesis/common/aspect
+https://orange-hrm-saas.googlecode.com/svn
+
+
+
+2013-05-05T10:21:28.338509Z
+16
+edward.fer@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+AuditTrailsAspect.java
+file
+
+
+
+
+2013-05-05T05:50:32.000000Z
+9c877cc108271d917d128ba0f030332f
+2013-05-05T10:21:28.338509Z
+16
+edward.fer@gmail.com
+has-props
+

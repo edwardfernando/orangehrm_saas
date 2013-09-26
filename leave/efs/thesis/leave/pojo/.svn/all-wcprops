@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/17/trunk/OrangeHRM_SaaS/leave/efs/thesis/leave/pojo
+END
+LeaveAssignContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/20/trunk/OrangeHRM_SaaS/leave/efs/thesis/leave/pojo/LeaveAssignContext.java
+END
+LeaveSummaryContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/20/trunk/OrangeHRM_SaaS/leave/efs/thesis/leave/pojo/LeaveSummaryContext.java
+END
+LeaveSummaryDetailsDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/22/trunk/OrangeHRM_SaaS/leave/efs/thesis/leave/pojo/LeaveSummaryDetailsDTO.java
+END

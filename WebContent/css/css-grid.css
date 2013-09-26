@@ -1,0 +1,45 @@
+div.block {
+	background-color:#cccccc; 
+	width:500px;
+    overflow:hidden;
+    position:relative;
+}
+div.block label {
+    width:125px;
+    display:block;
+    float:left;
+    text-align:left;
+}
+div.block input {
+    margin-left:4px;
+    float:left;
+}
+
+div.block textarea {
+    width:125px;
+    display:block;
+    float:left;
+    text-align:left;
+}
+div.block textarea {
+    margin-left:4px;
+    float:left;
+}
+
+.error {
+	color: #ff0000;
+}
+
+#wrapper {
+    display: table;
+    table-layout: fixed;
+    
+    width:90%;
+    #height:100px;
+    #background-color:Gray;
+}
+
+#wrapper div {
+    display: table-cell;
+    #height:100px;
+}

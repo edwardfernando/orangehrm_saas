@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao
+END
+ContactDetailsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/ContactDetailsDAO.java
+END
+EmploymentStatusDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/EmploymentStatusDAO.java
+END
+JobCategoryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/8/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/JobCategoryDAO.java
+END
+WorkLocationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/WorkLocationDAO.java
+END
+ReportingMethodDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/15/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/ReportingMethodDAO.java
+END
+ContactDetailsTypeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/ContactDetailsTypeDAO.java
+END
+NationalityDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/NationalityDAO.java
+END
+DependentsTypeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/DependentsTypeDAO.java
+END
+OrganizationUnitStructureDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/OrganizationUnitStructureDAO.java
+END
+ApprovalStatusDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/21/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/ApprovalStatusDAO.java
+END
+ImmigrationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/ImmigrationDAO.java
+END
+DependentsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/DependentsDAO.java
+END
+JobTitleDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/JobTitleDAO.java
+END
+ApprovalLevelDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/21/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/ApprovalLevelDAO.java
+END
+LeaveTypesDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/17/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/LeaveTypesDAO.java
+END
+AccessibleModuleDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/13/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/AccessibleModuleDAO.java
+END
+CountryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/CountryDAO.java
+END
+ImmigrationTypeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/8/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/ImmigrationTypeDAO.java
+END
+EmployeeLeavesDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/17/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/EmployeeLeavesDAO.java
+END
+CrudDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/CrudDAO.java
+END
+MaritalStatusDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/MaritalStatusDAO.java
+END
+FieldsTypeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/FieldsTypeDAO.java
+END
+JobDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/12/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/JobDAO.java
+END
+LogHistoryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/15/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/LogHistoryDAO.java
+END
+LeavePeriodDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/20/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/LeavePeriodDAO.java
+END
+EmployeeAccessDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/21/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/EmployeeAccessDAO.java
+END
+LeaveApprovalHistoryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/21/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/LeaveApprovalHistoryDAO.java
+END
+EmployeeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/EmployeeDAO.java
+END
+EmployeeLeaveHistoryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/17/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/EmployeeLeaveHistoryDAO.java
+END
+L10NDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/base/efs/thesis/saas/dao/L10NDao.java
+END

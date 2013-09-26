@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/common/efs/thesis/common/annotation/validator
+END
+IntegerOnly.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/common/efs/thesis/common/annotation/validator/IntegerOnly.java
+END
+NotEmpty.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/common/efs/thesis/common/annotation/validator/NotEmpty.java
+END
+Length.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/common/efs/thesis/common/annotation/validator/Length.java
+END
+Min.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/common/efs/thesis/common/annotation/validator/Min.java
+END
+Max.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/common/efs/thesis/common/annotation/validator/Max.java
+END
+Email.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/common/efs/thesis/common/annotation/validator/Email.java
+END
+NumberOnly.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/common/efs/thesis/common/annotation/validator/NumberOnly.java
+END
+NotNull.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/common/efs/thesis/common/annotation/validator/NotNull.java
+END
+Pattern.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/common/efs/thesis/common/annotation/validator/Pattern.java
+END

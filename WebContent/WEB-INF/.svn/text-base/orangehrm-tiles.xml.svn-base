@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="template" template="/WEB-INF/jsp/tiles/template.jsp">
+		<put-attribute name="title" value="Orange HRM"/>
+		<put-attribute name="header" value="/WEB-INF/jsp/tiles/header.jsp"/>
+		<put-attribute name="body" value=""/>
+		<put-attribute name="footer" value="/WEB-INF/jsp/tiles/footer.jsp"/>
+	</definition>
+	
+	<!-- 
+	PIM START 
+	-->
+	
+	<definition name="/pim/employee_list" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/pim/employee_list.jsp"/>
+	</definition>
+	
+	<definition name="/pim/employee_add" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/pim/employee_add.jsp"/>
+	</definition>
+	
+	<definition name="/pim/employee_details" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/pim/employee_details.jsp"/>
+	</definition>
+	
+	<definition name="/pim/employee_contact_details" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/pim/employee_contact_details.jsp"/>
+	</definition>
+	
+	<definition name="/pim/employee_dependents" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/pim/employee_dependents.jsp"/>
+	</definition>
+	
+	<definition name="/pim/employee_immigrations" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/pim/employee_immigrations.jsp"/>
+	</definition>
+	
+	<definition name="/pim/employee_job" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/pim/employee_job.jsp"/>
+	</definition>
+	
+	<definition name="/pim/employee_report_to" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/pim/employee_report_to.jsp"/>
+	</definition>
+	
+	
+	<!-- 
+	LEAVE
+	 -->
+	 <definition name="/leave/list" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/leave/leave_list.jsp"/>
+	</definition>
+	 
+	<definition name="/leave/leave_summary" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/leave/leave_summary.jsp"/>
+	</definition>
+
+	<definition name="/leave/leave_assign" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/leave/leave_assign.jsp"/>
+	</definition>
+		
+	<definition name="/leave/leave_summary_details" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/leave/leave_summary_details.jsp"/>
+	</definition>
+	
+	<!-- 
+	TOOLS
+	 -->
+	
+	<definition name="/tools/crud/index" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/tools/crud/index.jsp"/>
+	</definition>
+	
+	<definition name="/tools/crud/form" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/tools/crud/form.jsp"/>
+	</definition>
+	
+	<!-- 
+	HOME
+	 -->
+	
+	<definition name="/home/login" extends="template">
+		<put-attribute name="body" value="/WEB-INF/jsp/home/login.jsp"/>
+	</definition>
+	
+</tiles-definitions>

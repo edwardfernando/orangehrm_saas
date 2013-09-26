@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/pim
+END
+employee_job.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/16/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/pim/employee_job.jsp
+END
+employee_report_to.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/16/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/pim/employee_report_to.jsp
+END
+employee_immigrations.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/16/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/pim/employee_immigrations.jsp
+END
+employee_details.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/13/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/pim/employee_details.jsp
+END
+employee_list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/16/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/pim/employee_list.jsp
+END
+employee_contact_details.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/16/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/pim/employee_contact_details.jsp
+END
+employee_dependents.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/16/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/pim/employee_dependents.jsp
+END
+employee_add.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/13/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/pim/employee_add.jsp
+END

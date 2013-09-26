@@ -1,0 +1,56 @@
+8
+
+dir
+5
+https://orange-hrm-saas.googlecode.com/svn/trunk/OrangeHRM_SaaS/common/efs/thesis/common/annotation
+https://orange-hrm-saas.googlecode.com/svn
+
+
+
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+AuditTrails.java
+file
+16
+
+
+
+2013-05-05T05:45:08.000000Z
+8f76151b7accd016c2f01e8f09c9642b
+2013-05-05T10:21:28.338509Z
+16
+edward.fer@gmail.com
+has-props
+
+AutoCrud.java
+file
+
+
+
+
+2013-04-05T14:05:03.330109Z
+af94bbb8265e5528e55e0cd234ea1670
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+FormElement.java
+file
+
+
+
+
+2013-04-30T06:26:25.882633Z
+c923bb4894c14593a13e234421b1f837
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+validator
+dir
+

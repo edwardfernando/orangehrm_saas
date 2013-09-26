@@ -1,0 +1,43 @@
+8
+
+dir
+5
+https://orange-hrm-saas.googlecode.com/svn/trunk/OrangeHRM_SaaS/WebContent/js
+https://orange-hrm-saas.googlecode.com/svn
+
+
+
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+crudutil.js
+file
+17
+
+
+
+2013-05-05T10:28:53.000000Z
+9fc92a058611d27bf07ae50d63078962
+2013-05-05T17:30:39.569685Z
+17
+edward.fer@gmail.com
+
+lib
+dir
+
+pagination.js
+file
+
+
+
+
+2012-09-26T01:35:09.000000Z
+d11abd8df6403ad768b0b99698762a3b
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+

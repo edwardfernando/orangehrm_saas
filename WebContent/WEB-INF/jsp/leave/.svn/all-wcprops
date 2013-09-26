@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/leave
+END
+leave_assign.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/20/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/leave/leave_assign.jsp
+END
+leave_list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/22/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/leave/leave_list.jsp
+END
+leave_summary.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/22/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/leave/leave_summary.jsp
+END
+leave_summary_details.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/24/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/leave/leave_summary_details.jsp
+END

@@ -1,0 +1,68 @@
+8
+
+dir
+5
+https://orange-hrm-saas.googlecode.com/svn/trunk/OrangeHRM_SaaS/WebContent/WEB-INF/jsp/leave
+https://orange-hrm-saas.googlecode.com/svn
+
+
+
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+leave_assign.jsp
+file
+20
+
+
+
+2013-05-11T11:56:35.000000Z
+0738eb6cba56fb6ccaeaf768bbebfb25
+2013-05-11T14:05:22.437963Z
+20
+edward.fer@gmail.com
+has-props
+
+leave_list.jsp
+file
+22
+
+
+
+2013-05-12T13:45:45.000000Z
+75c9560ecd0b8c936afc7a77d3910b2d
+2013-05-13T02:01:08.893310Z
+22
+edward.fer@gmail.com
+has-props
+
+leave_summary.jsp
+file
+22
+
+
+
+2013-05-12T06:20:22.000000Z
+adec0221a807643822f948c9355a8353
+2013-05-13T02:01:08.893310Z
+22
+edward.fer@gmail.com
+has-props
+
+leave_summary_details.jsp
+file
+24
+
+
+
+2013-05-13T06:45:19.000000Z
+dece7b1228fcdba098bbe279f016445c
+2013-05-15T15:25:53.954277Z
+24
+edward.fer@gmail.com
+has-props
+

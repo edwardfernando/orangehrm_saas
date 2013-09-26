@@ -1,0 +1,94 @@
+8
+
+dir
+4
+https://orange-hrm-saas.googlecode.com/svn/trunk/OrangeHRM_SaaS
+https://orange-hrm-saas.googlecode.com/svn
+
+
+
+2013-05-02T01:38:38.891151Z
+4
+edward.fer@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f2030f48-297a-e057-bfb4-e24a7ff0dc96
+
+.classpath
+file
+17
+
+
+
+2013-05-05T17:26:44.000000Z
+a4feb40a07ac105f0002f3debaa4bfc8
+2013-05-05T17:30:39.569685Z
+17
+edward.fer@gmail.com
+
+.project
+file
+5
+
+
+
+2013-03-13T03:05:40.216144Z
+9df34c0397b39be8837d1b3017451fde
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+.settings
+dir
+
+.tomcatplugin
+file
+5
+
+
+
+2013-03-13T03:06:51.592564Z
+809ce162637cb159442fac3f2531aac5
+2013-05-02T01:39:22.816678Z
+5
+edward.fer@gmail.com
+
+WebContent
+dir
+
+base
+dir
+
+common
+dir
+
+doc
+dir
+
+home
+dir
+
+leave
+dir
+
+pim
+dir
+
+tools
+dir
+
+work
+dir
+

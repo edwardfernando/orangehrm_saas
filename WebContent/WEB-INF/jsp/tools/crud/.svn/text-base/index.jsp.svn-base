@@ -1,0 +1,171 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/lib/jquery.min.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/lib/ui.core.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/lib/ui.datepicker.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/crudutil.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/pagination.js"></script>
+
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/lib/ui.all.css" />
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/css-grid.css" />
+
+<style type="text/css">
+<c:forEach items="${css}" var="css">
+	.${css.name} {
+		${css.value}
+	}
+</c:forEach>	
+</style>
+
+</head>
+<body class="homeBody">
+
+<div class="homeTitle">Home</div>
+
+<div align="right">
+	<c:forEach items="${available_locales}" var="locale">
+		&#x2605;
+		<a href="<%=request.getContextPath()%>/locale/set/${locale.value.id}">
+		${locale.value.name}
+		</a>
+	</c:forEach>
+</div>
+
+<%-- FILTER --%>
+<div>
+<form action="<%=request.getContextPath()%>/crud/${type}" method="post" name="filterForm">
+<c:forEach items="${htmls}" var="html">
+	<c:if test="${html.value.filterable}">
+ 	<div class="block">
+ 		<label>${html.value.alias}</label>
+		<c:choose>
+			<c:when test="${html.value.type == 'TEXTAREA'}">
+				<textarea id="${html.value.name}" name="${html.value.name}">${criteria.crudForm.attributes[html.value.name].value}</textarea>	
+			</c:when>
+			<c:when test="${html.value.type == 'POPUP'}">
+				<input type="hidden" id="${html.value.name}" name="${html.value.name}" value="${criteria.crudForm.attributes[html.value.name].value.id}"/>
+				<span id="${html.value.name}-span">${criteria.crudForm.attributes[html.value.name].value}</span>
+				<a href="#" onclick="popup('<%=request.getContextPath()%>/crud/${html.value.name}?popup&target=${html.value.name}');">Select ${html.value.alias}</a>
+			</c:when>
+			<c:when test="${html.value.type == 'CHECKBOX'}">
+			
+				<c:choose>
+					<c:when test="${criteria.crudForm.attributes[html.value.name].value}">
+						<c:set var="checkBoxValue" value="true"/> 
+					</c:when>
+					<c:otherwise>
+						<c:set var="checkBoxValue" value="false"/>
+					</c:otherwise>
+				</c:choose>
+				
+				<input type="checkbox" id="${html.value.name}" name="${html.value.name}" 
+				value="${checkBoxValue}" <c:if test="${modelAttribute.crudForm.attributes[html.value.name].value}">checked</c:if> onclick="setFormElementValue(this, this.checked);"/>
+			</c:when>
+			<c:when test="${html.value.type == 'DATE'}">
+				<input type="text" size="7" name="${html.value.name}" id="${html.value.name}" value="${criteria.crudForm.attributes[html.value.name].value}" class="datepicker" readonly/>
+			</c:when>
+			<c:otherwise>
+				<input type="${html.value.type}" id="${html.value.name}" name="${html.value.name}" value="${criteria.crudForm.attributes[html.value.name].value}"/>	
+			</c:otherwise>
+		</c:choose>
+	</div>	
+	</c:if>	
+</c:forEach>
+<input type="submit" value="Search"/>
+<input type="button" value="Reset" onclick="window.location='<%=request.getContextPath()%>/crud/${type}'"/>
+</form>
+</div>
+<%-- FILTER --%>
+
+<c:if test="${!popupMode}">
+<a href="<%=request.getContextPath()%>/crud/${type}/add">[Add]</a>
+</c:if>
+
+<table border="1">
+	<tr>
+		<td>#</td>
+		<td>ID</td>
+		<c:forEach items="${htmls}" var="html">
+			<c:if test="${html.value.listed}">		
+			<td>${html.value.alias}</td>
+			</c:if>
+		</c:forEach>
+	</tr>
+		
+	<c:forEach items="${crud_list}" var="list">
+		<tr>
+		<c:choose>
+			<c:when test="${popupMode}">
+				<td>
+					<a href="#" onclick="setPopUpValue('${target}', '${list[1]}', '${list[0]}')">Select</a>
+				</td>
+			</c:when>
+			<c:otherwise>
+				<td>
+					<a href="<%=request.getContextPath()%>/crud/${type}/edit/${list[1]}">[Edit]</a>
+					<a href="<%=request.getContextPath()%>/crud/${type}/delete/${list[1]}">[Del]</a>
+				</td>	
+			</c:otherwise>
+		</c:choose>
+		
+		<td>${list[1]}</td>
+		
+		<c:forEach items="${list}" var="item" varStatus="status" begin="2">
+			<td>${item}</td>
+			<%--
+			<c:choose>
+				<c:when test="${status.count == 1}">
+					<c:choose>
+						<c:when test="${popupMode}">
+							<td>
+								<a href="#" onclick="setPopUpValue('${target}', '${list[1]}', '${list[0]}')">Select</a>
+							</td>
+						</c:when>
+						<c:otherwise>
+							<td>
+								<a href="<%=request.getContextPath()%>/crud/${type}/edit/${item}">[Edit]</a>
+								<a href="<%=request.getContextPath()%>/crud/${type}/delete/${item}">[Del]</a>
+							</td>	
+						</c:otherwise>
+					</c:choose>
+				</c:when>
+				<c:otherwise>
+					<td>${item}</td>	
+				</c:otherwise>
+			</c:choose>
+			 --%>
+		</c:forEach>
+		</tr>
+	
+	</c:forEach>
+	
+</table>
+<input type="hidden" id="requesturl" name="requesturl" value="${criteria.url}"/>
+<a href="javascript: step('1')">
+First 
+</a>
+| 
+<a href="javascript: step('${criteria.prevPage}')">
+Prev 
+</a>
+| 
+Page ${criteria.page} of ${criteria.totalPage} 
+| 
+<a href="javascript: step('${criteria.nextPage}')">
+Next 
+</a>
+| 
+<a href="javascript: step('${criteria.totalPage}')">
+Last
+</a>
+</body>
+</html>
